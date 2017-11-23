@@ -1,0 +1,124 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #EDF1F2;
+}
+/*--------------------------banner stater----------------------------------------*/
+.banner{
+    margin-top: 100px;
+    background: url("../img3/a6.jpg") repeat;
+}
+.banner h1{
+    font-size: 3rem;
+    line-height: 1.2;
+    color: white;
+    font-weight: 300;
+}
+.banner h1 em{
+    font-weight: bolder;
+}
+.banner .btn{
+    border-radius: 0;
+}
+.banner .btn + .btn{
+    border: 1px solid #FFFfff;
+    background: transparent;
+    color: #FFFfff;
+}
+.banner .btn + .btn:hover{
+    border-color: #2baadf;
+    color: #2baadf;
+}
+.banner input{
+    background: #E2E6DB;
+    height: 4.5rem;
+    padding: 1rem 1.5rem;
+}
+.banner input:focus .banner input,.banner button:focus,.banner button{
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.banner button{
+    padding: 1.2rem 1.6rem;
+    height: 4.5rem;
+    background: #EDF1F2;
+    border-radius: 0 4px 4px 0;!important;
+}
+.banner form + div{
+    margin: 1rem 0;
+}
+/*--------------------------banner end----------------------------------------*/
+h2{
+    background: #DDE6E9;
+    margin: 0 0 5px;
+    padding: 1rem 0;
+}
+/*----------------------content stater-----------------------------------------*/
+.content figure{
+    background: #FFFfff;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.content figcaption{
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+.content figcaption h3{
+    margin: 0 0 1rem;
+    font-size: 1.6rem;
+}
+.content figcaption h3 a{
+    color: #000000;
+}
+.content figcaption h3 a:hover{
+    text-decoration: none;
+}
+.content figcaption .media-body + p{
+    line-height: 1.4;
+    height: 6.8rem;
+}
+.content figcaption img{
+    border-radius: 4px;
+}
+.content .star i{
+    margin: 0 0.5rem;
+}
+.content figcaption div:last-of-type{
+    margin-top: 1rem;
+}
+.content figcaption div:last-of-type a:first-of-type,.content figcaption div:last-of-type a:nth-of-type(2){
+    margin-top: 1rem;
+}
+.content .row > div{
+    padding: 0 10px;
+}
+.content h4{
+    white-space: nowrap;/*强制文本在一行*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media (max-width: 768px) {
+    .content figure > a img{
+        width: 100%;
+    }
+}
+.content .row [class="col-xs-12"],.content .row [class="col-xs-12 clearfix"]{
+    padding: 10px 0;!important;
+}
+.content .row [class="col-xs-12"],.content .row [class="col-xs-12 clearfix"]{
+    padding: 10px 0;!important;
+}
+.content .row [class="col-md-3 col-sm-6 clearfix"] div{
+    background: #FFFfff;
+}
+.content [class="col-md-3 col-sm-6 clearfix"] img{
+    border-radius: 4px;
+    margin: 5px;
+    width: 64px;
+
+}
+/*--------------------------content end-----------------------------------------*/

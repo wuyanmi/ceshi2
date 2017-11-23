@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@media (max-width: 768px) {
+    .banner{
+        margin-top: 50px !important;
+    }
+    .content .figure{
+        margin-top: 77px !important;
+    }
+    .section [class="col-xs-12"] a{
+        line-height: 2.5;
+    }
+    .section form{
+        width: 100% !important;
+    }
+}
+.banner{
+    background: url("../img3/a6.jpg");
+    margin-top: 100px;
+    height: 295px;
+}
+h1{
+    line-height: 50px;
+}
+h2:last-of-type{
+    margin-top: 0;
+}
+h3{
+    font-size: 18px;
+    margin: 0;
+}
+
+h4{
+    margin-bottom: 40px;
+}
+.content{
+    padding: 10px;
+    background: #d2f7fe;
+}
+.content .row [class="col-xs-12"] p{
+    font-size: 22px;
+}
+.content .row [class="col-md-3 col-sm-6"] figure{
+    background: #FFFfff;
+    margin-top: 10px;
+    padding: 5px;
+ }
+.content .row [class="col-md-3 col-sm-6"] figcaption > p{
+    height: 100px;
+}
+.section{
+     padding: 50px;
+ }
+.section >div a{
+    padding: 10px;
+    margin: 5px;
+}
+.section >div a:first-of-type{
+    background: #3A5898;
+    text-decoration: none;
+    color: #FFFfff;
+}
+.section >div a:first-of-type:hover{
+    background: #3d58a8;
+    color: #000000;
+}
+.section >div a:last-of-type{
+    background: #2BAADF;
+    text-decoration: none;
+    color: #FFFfff;
+}
+.section >div a:last-of-type:hover{
+    background: #d2f7fe;
+    color: #000;
+}
+.section form{
+    width: 400px;
+    margin: 110px auto 20px;
+}

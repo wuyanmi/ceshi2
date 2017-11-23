@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/*----------------------------header stater-------------------------------------*/
+.header .navbar{
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+}
+.mainNavBar{
+    background: #1c2b36;
+}
+.mainNavBar img{
+    max-width: 127px;
+}
+.mainNavBar .nav > li a{
+    color: #869fb1;
+}
+.mainNavBar .nav > li a:hover,.mainNavBar .nav > li a:focus,.mainNavBar .nav > li a:active{
+    background: #16232D;!important;
+    color: #FFFfff;!important;
+}
+.mainNavBar .login{
+    background: none;
+    color: #FFFfff;
+}
+.mainNavBar .login:hover{
+    background: #131e25;
+}
+.mainNavBar .navbar-toggle{
+    border: 0;
+    outline: 0;
+    background: none;
+}
+.mainNavBar .navbar-toggle i{
+    background: #2A6496;!important;
+    width: 17px;
+    height: 2px;
+}
+.mainNavBar .navbar-toggle .icon-bar + ,.icon-bar{
+    margin-top: 3px;
+}
+.mainNavBar .navbar-toggle:hover,.mainNavBar .navbar-toggle:focus{
+    background: none;
+}
+.mainNavBar .navbar-toggle:hover i,.mainNavBar .navbar-toggle:focus i{
+    background: #2a6496;!important;
+}
+.mainNavBar .dropdown-menu a{
+    background: #FFFfff;
+    color: #323232;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
+    background: #ECF0F1;
+    color: #323232;
+}
+.mainNavBar .dropdown-menu{
+    animation: inFadeDown .5s;
+    -webkit-animation:  inFadeDown .5s;
+}
+@keyframes inFadeDown {
+    0%{transform: transLateY(-50px);opacity: 0}
+    100%{transform: transLateY(0);opacity: 1}
+}
+@-webkit-keyframes inFadeDown {
+    0%{transform: transLateY(-50px);opacity: 0}
+    100%{transform: transLateY(0);opacity: 1}
+}
+
+
+.subNavBar{
+    background: #FFFfff;
+}
+.subNavBar .open >  a{
+    background: #f6f8f8;
+}
+.subNavBar form{
+
+    padding-right: 0;
+}
+.subNavBar input,.subNavBar button{
+    background: #EDF1F2;
+    border: 0;
+    outline: 0;
+}
+.subNavBar input{
+    box-shadow: none;
+}
+.subNavBar input:focus{
+    box-shadow: none;
+}
+.subNavBar button{
+    height: 34px;
+}
+.subNavBar button:focus{
+    outline: none;
+}
+/*--------------------------header end-------------------------------------------*/
+/*--------------------------footer stater----------------------------------------*/
+.footer .footer-top{
+    background: #1C2B36;
+}
+.footer .footer-top h5{
+    color: #FFFfff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer .footer-top h5 span{
+    font-weight: 200;
+}
+/*~ 兄弟选择器 选择相邻的所有相同的元素   +选择相邻的一个元素*/
+.footer .footer-top h5 ~ a{
+    color: #FFFfff;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 4px;
+}
+.footer .footer-top h5 ~ a:first-of-type{
+    background:rgba(58,68,152,.8);
+}
+.footer .footer-top h5 ~ a:first-of-type:hover{
+    background:rgba(58,68,152,.6);
+}
+.footer .footer-top h5 ~ a:nth-of-type(2){
+    background: #2BAADF;
+}
+.footer .footer-top h5 ~ a:nth-of-type(3){
+    background: #CC382E;
+}
+.footer .footer-top h5 ~ a:nth-of-type(4){
+    background: #CA1F28;
+}
+.footer .footer-top h5 ~ a:last-of-type{
+    background: #F26722;
+}
+.footer .footer-top h5 + ul{
+    padding: 0;
+}
+.footer .footer-top h5 + ul a,.footer .footer-bottom a{
+    color: #96AB9D;
+    text-decoration: none;
+}
+.footer .footer-top h5 + ul li{
+    list-style: none;
+}
+.footer .footer-top h5 + ul a:hover,.footer .footer-bottom a:hover{
+    color: #FFFfff;
+}
+.footer .footer-bottom{
+    background: #263845;
+    padding: 20px 0;
+}
+.footer .footer-bottom .col-xs-4{
+    color: #777C85;
+}
+/*--------------------------footer end-------------------------------------------*/
